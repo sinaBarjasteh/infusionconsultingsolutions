@@ -2,22 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Infusion Consulting Solutions</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Infusion Consulting Solutions</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <!-- HEADER -->
   <header class="header">
     <div class="container header-inner">
-      <img src="logo.jpg" alt="Infusion Consulting Solutions Logo" class="logo-img" />
-      <nav class="nav">
+      <a href="#" class="logo-link">
+        <img src="logo.jpg" alt="Infusion Consulting Solutions Logo" class="logo-img" />
+      </a>
+      
+      <nav class="nav" id="nav-menu">
         <a href="#home">Home</a>
         <a href="#infusion-services">Services</a>
         <a href="#process">Our Process</a>
         <a href="#about">About</a>
         <a href="#contact" class="btn btn-small">Schedule Consultation</a>
       </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </div>
   </header>
 
@@ -50,8 +59,10 @@
       <div>
         <h2>About Infusion Consulting Solutions</h2>
         <p>
-          We specialize in end-to-end development of Ambulatory Infusion Centers (AICs) and premium wellness clinics. 
-          From regulatory compliance to revenue optimization, we deliver turnkey solutions that drive long-term success.
+          At Infusion Consulting Solutions, we specialize in the end-to-end development of Ambulatory Infusion 
+          Centers (AICs) and high-end wellness clinics. From regulatory approvals and payer contracting to 
+          clinical workflows and revenue optimization, we deliver turnkey solutions that position your business 
+          for long-term success.
         </p>
       </div>
       <div class="about-icons">
@@ -67,54 +78,4 @@
   <section id="infusion-services" class="section section-alt">
     <div class="container">
       <h2>Core Services</h2>
-      <div class="grid-4">
-        <div class="card">Biologic Infusion Center Development</div>
-        <div class="card">Payer Strategy &amp; Revenue Optimization</div>
-        <div class="card">Clinical &amp; Compliance Infrastructure</div>
-        <div class="card">Luxury Wellness &amp; IV Therapy Clinics</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- PROCESS -->
-  <section id="process" class="section">
-    <div class="container">
-      <h2>Our Process</h2>
-      <div class="timeline">
-        <div class="step"><div class="step-circle">1</div><h3>Strategy &amp; Planning</h3></div>
-        <div class="step"><div class="step-circle">2</div><h3>Licensing &amp; Compliance</h3></div>
-        <div class="step"><div class="step-circle">3</div><h3>Build &amp; Implementation</h3></div>
-        <div class="step"><div class="step-circle">4</div><h3>Payer Contracting</h3></div>
-        <div class="step"><div class="step-circle">5</div><h3>Launch &amp; Optimization</h3></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section id="contact" class="section contact">
-    <div class="container contact-inner">
-      <div>
-        <h2>Ready to Build Your Infusion Center?</h2>
-        <p class="contact-info">
-          📞 ***-***-****<br>
-          📧 <a href="mailto:infusionconsultingsolutions@gmail.com">infusionconsultingsolutions@gmail.com</a>
-        </p>
-      </div>
-      <form class="contact-form">
-        <input type="text" placeholder="Name" required />
-        <input type="email" placeholder="Email" required />
-        <input type="text" placeholder="Organization" />
-        <textarea rows="5" placeholder="Tell us about your project"></textarea>
-        <button type="submit" class="btn">Send Message</button>
-      </form>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container footer-inner">
-      <div>© 2026 Infusion Consulting Solutions. All Rights Reserved.</div>
-    </div>
-  </footer>
-</body>
-</html>
+      <div class="grid-
