@@ -64,6 +64,12 @@ p {
   border-bottom: 1px solid #e5e7eb;
 }
 
+.logo-img {
+  height: 50px;
+  width: auto;
+  margin-right: 1rem;
+}
+
 .header-inner {
   display: flex;
   align-items: center;
