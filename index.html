@@ -78,4 +78,106 @@
   <section id="infusion-services" class="section section-alt">
     <div class="container">
       <h2>Core Services</h2>
-      <div class="grid-
+      <div class="grid-4">
+        <div class="card">
+          <h3>Biologic Infusion Center Development</h3>
+          <ul>
+            <li>Full AIC setup (California-compliant)</li>
+            <li>DOH readiness &amp; licensing strategy</li>
+            <li>Payer contracting (PPO &amp; Medicare)</li>
+            <li>Clinical SOPs &amp; infusion protocols</li>
+            <li>Revenue cycle &amp; WeInfuse integration</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Payer Strategy &amp; Revenue Optimization</h3>
+          <ul>
+            <li>Buy-and-bill optimization</li>
+            <li>J-code mapping &amp; reimbursement modeling</li>
+            <li>Chair-level revenue forecasting</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Clinical &amp; Compliance Infrastructure</h3>
+          <ul>
+            <li>Full clinical SOP manuals</li>
+            <li>Medicare &amp; commercial audit readiness</li>
+            <li>Staff training frameworks</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Luxury Wellness &amp; IV Therapy Clinics</h3>
+          <ul>
+            <li>High-end IV therapy &amp; spa development</li>
+            <li>Service menu design</li>
+            <li>Patient experience &amp; luxury positioning</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section id="process" class="section">
+    <div class="container">
+      <h2>Our Process</h2>
+      <div class="timeline">
+        <div class="step"><div class="step-circle">1</div><h3>Strategy &amp; Planning</h3></div>
+        <div class="step"><div class="step-circle">2</div><h3>Licensing &amp; Compliance</h3></div>
+        <div class="step"><div class="step-circle">3</div><h3>Build &amp; Implementation</h3></div>
+        <div class="step"><div class="step-circle">4</div><h3>Payer Contracting</h3></div>
+        <div class="step"><div class="step-circle">5</div><h3>Launch &amp; Optimization</h3></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <div class="container contact-inner">
+      <div>
+        <h2>Ready to Build Your Infusion Center?</h2>
+        <p>
+          Partner with a team that understands the clinical, financial, and operational complexity of infusion therapy.
+        </p>
+        <p class="contact-info">
+          📞 ***-***-****<br />
+          📧 <a href="mailto:infusionconsultingsolutions@gmail.com">infusionconsultingsolutions@gmail.com</a>
+        </p>
+      </div>
+      <form class="contact-form">
+        <input type="text" placeholder="Name" required />
+        <input type="email" placeholder="Email" required />
+        <input type="text" placeholder="Organization" />
+        <textarea rows="5" placeholder="Tell us about your project"></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© 2026 Infusion Consulting Solutions. All Rights Reserved.</div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile Menu
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('nav-menu');
+
+    hamburger.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+      hamburger.classList.toggle('active');
+    });
+
+    // Close menu when clicking links
+    document.querySelectorAll('.nav a').forEach(link => {
+      link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+        hamburger.classList.remove('active');
+      });
+    });
+  </script>
+</body>
+</html>
