@@ -83,10 +83,11 @@ p {
 }
 
 .logo-img {
-  height: 48px;
+  height: 65px;
   width: auto;
-  max-width: 280px;
+  max-width: 320px;
   object-fit: contain;
+  display: block;        /* This removes any unwanted spacing below the image */
 }
 
 /* Desktop Navigation */
