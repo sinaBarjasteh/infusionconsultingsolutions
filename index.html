@@ -2,31 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Infusion Consulting Solutions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <!-- HEADER -->
   <header class="header">
     <div class="container header-inner">
-      <a href="#" class="logo-link">
-        <img src="logo.jpg" alt="Infusion Consulting Solutions Logo" class="logo-img" />
+      <!-- Logo -->
+      <a href="#home" class="logo">
+        <img src="logo.jpg" alt="Infusion Consulting Solutions" class="logo-img">
       </a>
-      
-      <nav class="nav" id="nav-menu">
+
+      <!-- Desktop Navigation -->
+      <nav class="nav desktop-nav">
         <a href="#home">Home</a>
-        <a href="#infusion-services">Services</a>
+        <a href="#infusion-services">Infusion Center Services</a>
+        <a href="#wellness">Wellness Clinics</a>
         <a href="#process">Our Process</a>
         <a href="#about">About</a>
+        <a href="#contact">Contact</a>
         <a href="#contact" class="btn btn-small">Schedule Consultation</a>
       </nav>
 
-      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
+      <!-- Mobile Menu Button -->
+      <button class="mobile-menu-toggle" aria-label="Toggle menu">☰</button>
+
+      <!-- Mobile Navigation -->
+      <nav class="nav mobile-nav" id="mobile-nav">
+        <a href="#home">Home</a>
+        <a href="#infusion-services">Infusion Center Services</a>
+        <a href="#wellness">Wellness Clinics</a>
+        <a href="#process">Our Process</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact" class="btn btn-small">Schedule Consultation</a>
+      </nav>
     </div>
   </header>
 
@@ -34,11 +46,14 @@
   <section id="home" class="hero">
     <div class="container hero-inner">
       <div class="hero-text">
-        <h1>Premier Consulting for <span class="highlight">Biologic Infusion Centers</span> &amp; Luxury Wellness Clinics</h1>
-        <p>We design, build, and optimize physician-driven infusion centers and high-end wellness environments — fully compliant, strategically positioned, and built for profitability.</p>
+        <h1>Premier Consulting for Biologic Infusion Centers &amp; High-End Wellness Clinics</h1>
+        <p>
+          We design, build, and optimize physician-driven infusion centers and luxury wellness environments—
+          fully compliant, strategically positioned, and built for profitability.
+        </p>
         <div class="hero-actions">
           <a href="#contact" class="btn">Schedule a Consultation</a>
-          <a href="#infusion-services" class="btn btn-outline">Explore Services</a>
+          <a href="#infusion-services" class="btn btn-outline">Start Your Infusion Center</a>
         </div>
       </div>
       <div class="hero-visual">
@@ -50,45 +65,255 @@
     </div>
   </section>
 
-  <!-- ABOUT -->
+  <!-- ABOUT SNAPSHOT -->
   <section id="about" class="section">
     <div class="container two-col">
       <div>
         <h2>About Infusion Consulting Solutions</h2>
-        <p>At Infusion Consulting Solutions, we specialize in the end-to-end development of Ambulatory Infusion Centers (AICs) and high-end wellness clinics. From regulatory approvals and payer contracting to clinical workflows and revenue optimization, we deliver turnkey solutions.</p>
+        <p>
+          At Infusion Consulting Solutions, we specialize in the end-to-end development of Ambulatory Infusion
+          Centers (AICs) and high-end wellness clinics. From regulatory approvals and payer contracting to
+          clinical workflows and revenue optimization, we deliver turnkey solutions that position your business
+          for long-term success.
+        </p>
       </div>
       <div class="about-icons">
-        <div class="pill-card">Compliance &amp; Licensing</div>
-        <div class="pill-card">Revenue Optimization</div>
-        <div class="pill-card">Clinical Operations</div>
-        <div class="pill-card">Luxury Wellness Development</div>
+        <div class="pill-card">
+          <h4>Compliance</h4>
+          <p>California, Medicare &amp; payer-aligned frameworks.</p>
+        </div>
+        <div class="pill-card">
+          <h4>Revenue</h4>
+          <p>Buy-and-bill, J-codes, reimbursement modeling.</p>
+        </div>
+        <div class="pill-card">
+          <h4>Operations</h4>
+          <p>Clinical workflows, staffing, technology integration.</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- SERVICES -->
-  <section id="infusion-services" class="section section-alt">
+  <!-- CORE SERVICES OVERVIEW -->
+  <section class="section section-alt">
     <div class="container">
       <h2>Core Services</h2>
       <div class="grid-4">
-        <div class="card"><h3>Biologic Infusion Center Development</h3></div>
-        <div class="card"><h3>Payer Strategy &amp; Revenue Optimization</h3></div>
-        <div class="card"><h3>Clinical &amp; Compliance Infrastructure</h3></div>
-        <div class="card"><h3>Luxury Wellness &amp; IV Therapy Clinics</h3></div>
+        <div class="card">
+          <h3>Biologic Infusion Center Development</h3>
+          <ul>
+            <li>Full AIC setup (California-compliant)</li>
+            <li>DOH readiness &amp; licensing strategy</li>
+            <li>Payer contracting (PPO &amp; Medicare)</li>
+            <li>Clinical SOPs &amp; infusion protocols</li>
+            <li>Revenue cycle &amp; WeInfuse integration</li>
+            <li>Site readiness &amp; accreditation prep</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Payer Strategy &amp; Revenue Optimization</h3>
+          <ul>
+            <li>In-network vs out-of-network modeling</li>
+            <li>PPO reimbursement structuring</li>
+            <li>Drug margin optimization (buy-and-bill)</li>
+            <li>J-code mapping &amp; reimbursement modeling</li>
+            <li>Chair-level revenue forecasting</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Clinical &amp; Compliance Infrastructure</h3>
+          <ul>
+            <li>Full clinical SOP manuals</li>
+            <li>Infusion reaction &amp; safety workflows</li>
+            <li>Medicare &amp; commercial audit readiness</li>
+            <li>REMS / manufacturer compliance</li>
+            <li>Staff training frameworks (RN/NP)</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Luxury Wellness &amp; IV Therapy Clinics</h3>
+          <ul>
+            <li>High-end IV therapy &amp; spa development</li>
+            <li>Service menu design (weight loss, IV, body sculpting)</li>
+            <li>Equipment sourcing &amp; ROI strategy</li>
+            <li>Patient experience &amp; luxury positioning</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- PROCESS -->
-  <section id="process" class="section">
+  <!-- WHY CHOOSE US -->
+  <section class="section">
+    <div class="container">
+      <h2>Why Choose Us</h2>
+      <div class="grid-4">
+        <div class="card small">
+          <h3>Built by Industry Experts</h3>
+          <p>
+            Real-world experience launching and operating infusion centers with deep expertise in payer
+            contracting, biologics, and compliance.
+          </p>
+        </div>
+        <div class="card small">
+          <h3>Revenue-Driven Strategy</h3>
+          <p>
+            Every build is structured with profitability in mind—from drug selection to reimbursement modeling.
+          </p>
+        </div>
+        <div class="card small">
+          <h3>Turnkey Execution</h3>
+          <p>
+            We don’t just advise—we build, implement, and optimize every component of your operation.
+          </p>
+        </div>
+        <div class="card small">
+          <h3>Compliance First</h3>
+          <p>
+            Systems aligned with California regulations, Medicare requirements, and payer audit standards.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUR PROCESS -->
+  <section id="process" class="section section-alt">
     <div class="container">
       <h2>Our Process</h2>
       <div class="timeline">
-        <div class="step"><div class="step-circle">1</div><h3>Strategy &amp; Planning</h3></div>
-        <div class="step"><div class="step-circle">2</div><h3>Licensing &amp; Compliance</h3></div>
-        <div class="step"><div class="step-circle">3</div><h3>Build &amp; Implementation</h3></div>
-        <div class="step"><div class="step-circle">4</div><h3>Payer Contracting</h3></div>
-        <div class="step"><div class="step-circle">5</div><h3>Launch &amp; Optimization</h3></div>
+        <div class="step">
+          <div class="step-circle">1</div>
+          <h3>Strategy &amp; Planning</h3>
+          <p>Market analysis, business model design, drug selection strategy, financial projections.</p>
+        </div>
+        <div class="step">
+          <div class="step-circle">2</div>
+          <h3>Licensing &amp; Compliance</h3>
+          <p>DOH/State readiness, Medicare enrollment, policies &amp; procedures, risk mitigation.</p>
+        </div>
+        <div class="step">
+          <div class="step-circle">3</div>
+          <h3>Build &amp; Implementation</h3>
+          <p>Workflow design, technology setup, staffing model, vendor &amp; manufacturer coordination.</p>
+        </div>
+        <div class="step">
+          <div class="step-circle">4</div>
+          <h3>Payer Contracting &amp; Revenue Setup</h3>
+          <p>PPO contracting, payer enrollment, fee schedule analysis, authorization workflows.</p>
+        </div>
+        <div class="step">
+          <div class="step-circle">5</div>
+          <h3>Launch &amp; Optimization</h3>
+          <p>Go-live support, revenue cycle optimization, audit readiness, growth strategy.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INFUSION CENTER SERVICES (DETAIL) -->
+  <section id="infusion-services" class="section">
+    <div class="container">
+      <h2>Infusion Center Services</h2>
+      <div class="two-col">
+        <div>
+          <h3>Full AIC Development Package</h3>
+          <ul>
+            <li>Regulatory &amp; compliance roadmap (California-specific)</li>
+            <li>Payer strategy (Anthem, Blue Shield, Aetna, Cigna, UHC)</li>
+            <li>Drug portfolio strategy (biologics &amp; specialty meds)</li>
+            <li>Infusion workflow design</li>
+            <li>Prior authorization &amp; VOB SOPs</li>
+            <li>Billing optimization &amp; collections strategy</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Revenue Model Strategy</h3>
+          <ul>
+            <li>Buy-and-bill optimization</li>
+            <li>Drug acquisition vs reimbursement modeling</li>
+            <li>Chair utilization strategy</li>
+            <li>High-margin biologic selection</li>
+          </ul>
+          <h3>Technology Integration</h3>
+          <ul>
+            <li>WeInfuse setup &amp; optimization</li>
+            <li>EMR/EHR coordination</li>
+            <li>Billing &amp; coding workflows</li>
+            <li>Reporting dashboards</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WELLNESS & LUXURY CLINICS -->
+  <section id="wellness" class="section section-alt">
+    <div class="container">
+      <h2>Wellness &amp; Luxury Clinics</h2>
+      <div class="two-col">
+        <div>
+          <h3>High-End IV &amp; Aesthetic Spa Development</h3>
+          <p>
+            We help clients build premium wellness brands that combine clinical care with a luxury experience.
+          </p>
+          <ul>
+            <li>IV therapy program development</li>
+            <li>Aesthetic service integration</li>
+            <li>Equipment sourcing (top-performing devices)</li>
+            <li>Spa layout &amp; patient flow design</li>
+            <li>Branding &amp; patient experience strategy</li>
+          </ul>
+        </div>
+        <div class="hero-card">
+          <h3>Luxury Wellness Positioning</h3>
+          <p>Differentiate your clinic with a premium, patient-centered experience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHO WE WORK WITH -->
+  <section class="section">
+    <div class="container">
+      <h2>Who We Work With</h2>
+      <div class="grid-4">
+        <div class="pill-card">
+          <h4>Physicians &amp; Medical Groups</h4>
+        </div>
+        <div class="pill-card">
+          <h4>Healthcare Investors</h4>
+        </div>
+        <div class="pill-card">
+          <h4>Entrepreneurs in Infusion</h4>
+        </div>
+        <div class="pill-card">
+          <h4>Med Spa &amp; Wellness Owners</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTS -->
+  <section class="section section-alt">
+    <div class="container">
+      <h2>Results You Can Expect</h2>
+      <div class="grid-4">
+        <div class="card small">
+          <h3>Faster Time to Launch</h3>
+        </div>
+        <div class="card small">
+          <h3>Strong Payer Positioning</h3>
+        </div>
+        <div class="card small">
+          <h3>Optimized Reimbursement Rates</h3>
+        </div>
+        <div class="card small">
+          <h3>Fully Compliant Operations</h3>
+        </div>
+        <div class="card small">
+          <h3>Scalable, High-Revenue Model</h3>
+        </div>
       </div>
     </div>
   </section>
@@ -98,9 +323,12 @@
     <div class="container contact-inner">
       <div>
         <h2>Ready to Build Your Infusion Center?</h2>
-        <p>Partner with a team that understands the clinical, financial, and operational complexity of infusion therapy.</p>
+        <p>
+          Partner with a team that understands the clinical, financial, and operational complexity of infusion
+          therapy.
+        </p>
         <p class="contact-info">
-          📞 ***-***-****<br>
+          📞 818-434-1495<br />
           📧 <a href="mailto:infusionconsultingsolutions@gmail.com">infusionconsultingsolutions@gmail.com</a>
         </p>
       </div>
@@ -108,8 +336,8 @@
         <input type="text" placeholder="Name" required />
         <input type="email" placeholder="Email" required />
         <input type="text" placeholder="Organization" />
-        <textarea rows="5" placeholder="Tell us about your project"></textarea>
-        <button type="submit" class="btn">Send Message</button>
+        <textarea rows="4" placeholder="Tell us about your project"></textarea>
+        <button type="submit" class="btn">Contact Us Today</button>
       </form>
     </div>
   </section>
@@ -118,22 +346,25 @@
   <footer class="footer">
     <div class="container footer-inner">
       <div>© 2026 Infusion Consulting Solutions. All Rights Reserved.</div>
+      <div>Infusion Consulting Solutions</div>
     </div>
   </footer>
 
+  <!-- Mobile Menu Script -->
   <script>
-    const hamburger = document.getElementById('hamburger');
-    const navMenu = document.getElementById('nav-menu');
+    const mobileToggle = document.querySelector('.mobile-menu-toggle');
+    const mobileNav = document.getElementById('mobile-nav');
 
-    hamburger.addEventListener('click', () => {
-      navMenu.classList.toggle('active');
-      hamburger.classList.toggle('active');
+    mobileToggle.addEventListener('click', () => {
+      mobileNav.classList.toggle('active');
+      mobileToggle.textContent = mobileNav.classList.contains('active') ? '✕' : '☰';
     });
 
-    document.querySelectorAll('.nav a').forEach(link => {
+    // Close menu when link is clicked
+    document.querySelectorAll('.mobile-nav a').forEach(link => {
       link.addEventListener('click', () => {
-        navMenu.classList.remove('active');
-        hamburger.classList.remove('active');
+        mobileNav.classList.remove('active');
+        mobileToggle.textContent = '☰';
       });
     });
   </script>
