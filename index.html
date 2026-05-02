@@ -7,15 +7,15 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
   <!-- HEADER -->
   <header class="header">
     <div class="container header-inner">
-      <!-- Logo -->
       <a href="#home" class="logo">
         <img src="logo.jpg" alt="Infusion Consulting Solutions" class="logo-img">
       </a>
 
-      <!-- Desktop Navigation -->
+      <!-- Desktop Menu -->
       <nav class="nav desktop-nav">
         <a href="#home">Home</a>
         <a href="#infusion-services">Infusion Center Services</a>
@@ -27,10 +27,11 @@
       </nav>
 
       <!-- Mobile Menu Button -->
-      <button class="mobile-menu-toggle" aria-label="Toggle menu">☰</button>
+      <label class="mobile-menu-toggle" for="mobile-toggle">☰</label>
+      <input type="checkbox" id="mobile-toggle" class="mobile-toggle">
 
-      <!-- Mobile Navigation -->
-      <nav class="nav mobile-nav" id="mobile-nav">
+      <!-- Mobile Menu -->
+      <nav class="nav mobile-nav">
         <a href="#home">Home</a>
         <a href="#infusion-services">Infusion Center Services</a>
         <a href="#wellness">Wellness Clinics</a>
@@ -57,10 +58,7 @@
         </div>
       </div>
       <div class="hero-visual">
-        <div class="hero-card">
-          <h3>Infusion Center Strategy</h3>
-          <p>Compliance • Revenue • Operations</p>
-        </div>
+        <img src="hero.jpg" alt="Modern luxury infusion center" class="hero-image">
       </div>
     </div>
   </section>
@@ -150,28 +148,19 @@
       <div class="grid-4">
         <div class="card small">
           <h3>Built by Industry Experts</h3>
-          <p>
-            Real-world experience launching and operating infusion centers with deep expertise in payer
-            contracting, biologics, and compliance.
-          </p>
+          <p>Real-world experience launching and operating infusion centers with deep expertise in payer contracting, biologics, and compliance.</p>
         </div>
         <div class="card small">
           <h3>Revenue-Driven Strategy</h3>
-          <p>
-            Every build is structured with profitability in mind—from drug selection to reimbursement modeling.
-          </p>
+          <p>Every build is structured with profitability in mind—from drug selection to reimbursement modeling.</p>
         </div>
         <div class="card small">
           <h3>Turnkey Execution</h3>
-          <p>
-            We don’t just advise—we build, implement, and optimize every component of your operation.
-          </p>
+          <p>We don’t just advise—we build, implement, and optimize every component of your operation.</p>
         </div>
         <div class="card small">
           <h3>Compliance First</h3>
-          <p>
-            Systems aligned with California regulations, Medicare requirements, and payer audit standards.
-          </p>
+          <p>Systems aligned with California regulations, Medicare requirements, and payer audit standards.</p>
         </div>
       </div>
     </div>
@@ -211,7 +200,7 @@
     </div>
   </section>
 
-  <!-- INFUSION CENTER SERVICES (DETAIL) -->
+  <!-- INFUSION CENTER SERVICES -->
   <section id="infusion-services" class="section">
     <div class="container">
       <h2>Infusion Center Services</h2>
@@ -254,9 +243,7 @@
       <div class="two-col">
         <div>
           <h3>High-End IV &amp; Aesthetic Spa Development</h3>
-          <p>
-            We help clients build premium wellness brands that combine clinical care with a luxury experience.
-          </p>
+          <p>We help clients build premium wellness brands that combine clinical care with a luxury experience.</p>
           <ul>
             <li>IV therapy program development</li>
             <li>Aesthetic service integration</li>
@@ -264,10 +251,6 @@
             <li>Spa layout &amp; patient flow design</li>
             <li>Branding &amp; patient experience strategy</li>
           </ul>
-        </div>
-        <div class="hero-card">
-          <h3>Luxury Wellness Positioning</h3>
-          <p>Differentiate your clinic with a premium, patient-centered experience.</p>
         </div>
       </div>
     </div>
@@ -278,18 +261,10 @@
     <div class="container">
       <h2>Who We Work With</h2>
       <div class="grid-4">
-        <div class="pill-card">
-          <h4>Physicians &amp; Medical Groups</h4>
-        </div>
-        <div class="pill-card">
-          <h4>Healthcare Investors</h4>
-        </div>
-        <div class="pill-card">
-          <h4>Entrepreneurs in Infusion</h4>
-        </div>
-        <div class="pill-card">
-          <h4>Med Spa &amp; Wellness Owners</h4>
-        </div>
+        <div class="pill-card"><h4>Physicians &amp; Medical Groups</h4></div>
+        <div class="pill-card"><h4>Healthcare Investors</h4></div>
+        <div class="pill-card"><h4>Entrepreneurs in Infusion</h4></div>
+        <div class="pill-card"><h4>Med Spa &amp; Wellness Owners</h4></div>
       </div>
     </div>
   </section>
@@ -299,21 +274,11 @@
     <div class="container">
       <h2>Results You Can Expect</h2>
       <div class="grid-4">
-        <div class="card small">
-          <h3>Faster Time to Launch</h3>
-        </div>
-        <div class="card small">
-          <h3>Strong Payer Positioning</h3>
-        </div>
-        <div class="card small">
-          <h3>Optimized Reimbursement Rates</h3>
-        </div>
-        <div class="card small">
-          <h3>Fully Compliant Operations</h3>
-        </div>
-        <div class="card small">
-          <h3>Scalable, High-Revenue Model</h3>
-        </div>
+        <div class="card small"><h3>Faster Time to Launch</h3></div>
+        <div class="card small"><h3>Strong Payer Positioning</h3></div>
+        <div class="card small"><h3>Optimized Reimbursement Rates</h3></div>
+        <div class="card small"><h3>Fully Compliant Operations</h3></div>
+        <div class="card small"><h3>Scalable, High-Revenue Model</h3></div>
       </div>
     </div>
   </section>
@@ -323,12 +288,9 @@
     <div class="container contact-inner">
       <div>
         <h2>Ready to Build Your Infusion Center?</h2>
-        <p>
-          Partner with a team that understands the clinical, financial, and operational complexity of infusion
-          therapy.
-        </p>
+        <p>Partner with a team that understands the clinical, financial, and operational complexity of infusion therapy.</p>
         <p class="contact-info">
-        <!--  📞 818-434-1495<br /> -->
+          📞  <br />
           📧 <a href="mailto:infusionconsultingsolutions@gmail.com">infusionconsultingsolutions@gmail.com</a>
         </p>
       </div>
@@ -350,23 +312,5 @@
     </div>
   </footer>
 
-  <!-- Mobile Menu Script -->
-  <script>
-    const mobileToggle = document.querySelector('.mobile-menu-toggle');
-    const mobileNav = document.getElementById('mobile-nav');
-
-    mobileToggle.addEventListener('click', () => {
-      mobileNav.classList.toggle('active');
-      mobileToggle.textContent = mobileNav.classList.contains('active') ? '✕' : '☰';
-    });
-
-    // Close menu when link is clicked
-    document.querySelectorAll('.mobile-nav a').forEach(link => {
-      link.addEventListener('click', () => {
-        mobileNav.classList.remove('active');
-        mobileToggle.textContent = '☰';
-      });
-    });
-  </script>
 </body>
 </html>
