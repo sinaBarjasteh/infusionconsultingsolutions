@@ -312,5 +312,14 @@
     </div>
   </footer>
 
+  <script>
+  // Close mobile menu when a link is clicked
+  document.querySelectorAll('.mobile-nav a').forEach(link => {
+    link.addEventListener('click', () => {
+      document.getElementById('mobile-toggle').checked = false;
+    });
+  });
+</script>
+  
 </body>
 </html>
